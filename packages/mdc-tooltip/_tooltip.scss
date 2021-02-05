@@ -46,7 +46,7 @@ $_rich_corner_radius: 8px;
 $_rich_max-width: 320px;
 $_rich_padding: 8px;
 $_content-margin-x: 8px;
-$_content-type-scale: body1;
+$_content-type-scale: body2;
 $_title-type-scale: subtitle2;
 
 @mixin core-styles($query: feature-targeting.all()) {
@@ -183,7 +183,7 @@ $_title-type-scale: subtitle2;
     }
 
     .mdc-tooltip__title {
-      @include typography.text-baseline($top: 20px, $query: $query);
+      @include typography.text-baseline($top: 28px, $query: $query);
       @include typography.typography(
         $_title-type-scale,
         $exclude-props: (line-height),
